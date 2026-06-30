@@ -1,0 +1,13 @@
+@import url(./fonts.css);
+@import url(./components/header.css);
+
+.container-flued{
+    width: 100%;
+}
+.container{
+    width: 960px;
+    text-align: center;
+}
+ul,ol,li{
+    list-style-type: none;
+}
