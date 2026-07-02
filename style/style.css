@@ -1,12 +1,28 @@
 @import url(./fonts.css);
 @import url(./components/header.css);
+@import url(./components/banner.css);
+@import url(./components/product.css);
+@import url(./components/footer.css);
+@import url(./pages/name.css);
+@import url(./pages/about.css);
+@import url(./pages/blog.css);
 
-.container-flued{
+
+ul,ol,h1,h2,h3,h4,h5,h6,p,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+}
+
+.container-fluid{
     width: 100%;
 }
 .container{
     width: 960px;
-    text-align: center;
+    margin: 0 auto;
 }
 ul,ol,li{
     list-style-type: none;

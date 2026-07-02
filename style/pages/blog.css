@@ -1,0 +1,55 @@
+.blog{
+    padding: 60px 0;
+    background-color: #ffffff;
+    margin-bottom: 60px;
+}
+.content{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.first h3{
+    font-size: 34px;
+    color: #cb3362;
+    font-weight: 400;
+    font-family: lator;
+}
+.first p{
+    font-size: 20px;
+    color: #7a6666;
+    font-weight: 400;
+    font-family: roboto;
+}
+button{
+    font-size: 23px;
+    color: #a5838e;
+    font-weight: 700;
+    font-family: lator;
+    border: 2px solid #a5838e;
+    background-color: #ffffff;
+    padding: 10px 25px;
+}
+
+.right{
+    width: 399px;
+    height: 971px;
+    background-color: #efedee;
+}
+.recent-posts{
+    font-size: 43px;
+    color: #cb3362;
+    font-weight: 600;
+    font-family: magrab;
+}
+.right h3{
+    font-size: 34px;
+    color: #cb3362;
+    font-weight: 400;
+    font-family: lator;
+}
+.right p{
+    font-size: 20px;
+    color: #7a6666;
+    font-weight: 400;
+    font-family: roboto;
+}

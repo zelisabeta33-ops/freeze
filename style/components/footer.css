@@ -1,0 +1,19 @@
+footer{
+    background-color: #cb3362;
+    padding: 40px;
+}
+footer li{
+    display: inline-block;
+    margin: 0 15px;
+}
+footer ul{
+    text-align: center;
+}
+footer p{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: roboto;
+    text-align: center;
+    margin-top: 20px;
+}

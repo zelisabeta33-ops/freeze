@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header class="container-flued">
+    <header class="container-fluid">
         <div class="container">
             <h1>
                 <a href="#">
@@ -17,31 +17,67 @@
 
             <nav>
                 <ul>
-                    <li>
-                        <a class="activ" href="#">home</a>
+                    <li><a class="activ" href="./index.html">home</a>
                     </li>
                     <li>
-                        <a href="#">about</a>
-                        <ul>
+                        <a href="./pages/about.html">about</a>
+                        <ul class="droplist">
                             <li>
                                 <a href="#">product</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">blog</a>
-                        <ul>
-                            <li>
-                                <a href="#">single post</a>
-                            </li>
+                        <a href="./pages/blog.html">blog</a>
+                        <ul class="droplist">
+                        <li>
+                         <a href="#">single post</a>
+                         </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">contact</a>
+                        <a href="./pages/contact.html">contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <section class="container banner">
+        <img src="./img/home/baner_home.png" alt="banner">
+        <div class="circles">
+            <div class="circlegreen">
+                <a href="#">
+                    <span>
+                        FREEZE<br>
+                        DELIGHT
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container-fluid product">
+        <div class="container">
+        <article>
+            <p class="name">NEW PRODUCT</p>
+            <h1>The Twist of Healthy Yogurt</h1>
+            <p class="description">This website template has been designed by freewebsitetemplates.com for you, for free.<br>You can replace all this text with your own text.</p>
+        </article>
+            <img src="./img/home/Brightness_Contrast-31.png" alt="product">
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="container">
+            <ul>
+                <li><a href="#"><img src="./img/footer/fesbook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="./img/footer/twiter.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="./img/footer/google.png" alt="google"></a></li>
+                <li><a href="#"><img src="./img/footer/pinteres.png" alt="pinterest"></a></li>
+            </ul>
+        </div>
+        <p>© 2023 Freeeze. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
