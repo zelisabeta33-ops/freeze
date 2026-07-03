@@ -1,6 +1,7 @@
 footer{
     background-color: #cb3362;
     padding: 40px;
+    clear: both;
 }
 footer li{
     display: inline-block;
