@@ -41,6 +41,11 @@ button{
     margin-top: 40px;
     margin-left: 240px;
     margin-bottom: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
 }
 .load{
     margin-left: 210px;
