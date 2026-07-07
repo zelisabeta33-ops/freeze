@@ -1,8 +1,8 @@
-.product{
+.yogurt{
     height: 320px;
     background-color: #eae7e8;
 }
-.product .container{
+.yogurt .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +34,7 @@ h1{
     font-family: roboto;
     line-height: 1.6;
 }
-.product img{
+.yogurt img{
     align-items: flex-end;
     height: 200px;
     width: auto;
