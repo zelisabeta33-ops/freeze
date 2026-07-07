@@ -1,0 +1,18 @@
+.more{
+    height: 225px;
+    background-color: #c8c10d;
+}
+.list li a{
+    display: block;
+    text-decoration: none;
+}
+.list ul{
+    text-align: center;
+}
+.list ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.list ul li a img{
+    display: block;
+}

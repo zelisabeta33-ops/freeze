@@ -14,9 +14,17 @@ header h1 a{
     font-family: rammet;
     text-decoration: none;
     position: relative;
+}
+nav ul li>a{
     transition: 0.3s;
 }
-header li:hover a{
+nav ul li:hover> a{
+    transform: scale(1.1);
+}
+nav ul li ul.droplist{
+    transform: none !important;
+}
+nav ul li ul.droplist li a:hover{
     transform: scale(1.1);
 }
 header h1 a span{

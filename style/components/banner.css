@@ -39,3 +39,7 @@
   font-size: 24px;
   line-height: 24px;
 }
+.banner img{
+  width: 960px;
+  margin-top: 5px;
+}
