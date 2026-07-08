@@ -2,17 +2,24 @@
     height: 225px;
     background-color: #c8c10d;
 }
-.list li a{
-    display: block;
-    text-decoration: none;
-}
-.list ul{
+.list{
     text-align: center;
 }
-.list ul li{
+.more-item{
+    width: 250px;
     display: inline-block;
-    margin: 0 20px;
+    margin-top: 49px;
 }
-.list ul li a img{
-    display: block;
+.more-item span{
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: lator;
+}
+.more-item a{
+    text-decoration: none;
+}
+.more-item img{
+    height: 50px;
+    margin-bottom: 30px;
 }
