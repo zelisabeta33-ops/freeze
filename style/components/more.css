@@ -10,16 +10,59 @@
     display: inline-block;
     margin-top: 49px;
 }
-.more-item span{
+.more-item a span{
     font-size: 29px;
     color: #ffffff;
     font-weight: 400;
     font-family: lator;
+    display: block;
+    transition: transform 0.3s ease-in-out;
 }
 .more-item a{
     text-decoration: none;
 }
-.more-item img{
+.more-item a img{
     height: 50px;
     margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+.more-item:hover a img{
+    animation: jump-bounce 0.6s ease-in-out infinite;
+}
+@keyframes jump-bounce{
+    0%{
+        transform: translateY(0) scale(1);
+    }
+    20%{
+        transform: translateY(0) scale(1.1, 0.8);
+    }
+    50%{
+        transform: translateY(-15px) scale(0.9, 1.1);
+    }
+    80%{
+        transform: translateY(0) scale(1.05, 0.95);
+    }
+    100%{
+        transform: translateY(0) scale(1);
+    }
+}
+.more-item:hover a span{
+    animation: text-sink 0.6s ease-in-out infinite;
+}
+@keyframes text-sink{
+    0%{
+        transform: translateY(0) scale(1);
+    }
+    20%{
+        transform: translateY(0) scale(1.05, 0.95);
+    }
+    50%{
+        transform: translateY(8px) scale(0.95, 0.85);
+    }
+    80%{
+        transform: translateY(-2px) scale(1, 1.05);
+    }
+    100%{
+        transform: translateY(0) scale(1);
+    }
 }

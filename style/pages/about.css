@@ -3,6 +3,11 @@
     background-color: #ffffff;
     margin-bottom: 60px;
 }
+.about-img img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
 .about-content{
     display: flex;
     align-items: flex-start;

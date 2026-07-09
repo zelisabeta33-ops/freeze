@@ -9,8 +9,8 @@
 @import url(./pages/product.css);
 @import url(./pages/singlepost.css);
 @import url(./components/more.css);
-@import url(./pages/contact.css);
-
+@import url(./pages/contactsection.css);
+@import url(./pages/contactmain.css);
 
 
 ul,ol,h1,h2,h3,h4,h5,h6,p,body{
